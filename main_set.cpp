@@ -80,13 +80,13 @@ ifstream cardFile1 (argv[1]);
    cardFile2.close();
    playGame(alice, bob);
    cout<<endl<<endl;
-   cout<<"Alice's hand:"<<endl;
+   cout<<"Alice's cards:"<<endl;
    for(set<Card>::iterator it = alice.begin(); it !=alice.end(); ++it)
    {
      cout<<*it<<endl;
    }
    cout<<endl<<endl;
-   cout<<"Bob's hand:"<<endl;
+   cout<<"Bob's cards:"<<endl;
    for(set<Card>::iterator it = bob.begin(); it !=bob.end(); ++it)
    {
      cout<<*it<<endl;
